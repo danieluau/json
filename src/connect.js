@@ -6,12 +6,12 @@ const connectToDatabase = async () => {
     (error) => {
       if (error) {
         return console.log(
-          "Ocorreu um erro ao se conectar com o banco de dados: ",
+          "ocorreu um erro ao se conectar com o banco de dados: ",
           error
         );
       }
 
-      return console.log("Conexão ao banco de dados realizada com sucesso!");
+      return console.log("conexão com o banco de dados realizada com sucesso");
     }
   );
 };
